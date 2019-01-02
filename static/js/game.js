@@ -13,5 +13,19 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-dragula([document.getElementById('new_word')]);
 
+function $(id) {
+  return document.getElementById(id);
+}
+
+dragula([$('drag-elements'), $('drop-target-left'), $('drop-target-right')], {
+  revertOnSpill: true
+}).on('drop', function(el) {
+  if ($('drop-target-left').children.length > 0 || $('drop-target-right').children.length > 0) {
+    $('display-left').innerHTML = $('drop-target-left').innerHTML;
+    $('display-right').innerHTML = $('drop-target-right').innerHTML;
+  } else {
+    $('display').innerHTML = "Display";
+  }
+
+});

@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import data_manager
 
 app = Flask(__name__)
@@ -11,7 +11,8 @@ def hello_world():
 
 @app.route('/jatek')
 def play_game():
-    selected_words = data_manager.get_random_words(20)
+    word_number = int(request.args.get('word-number', 10))
+    selected_words = data_manager.get_random_words(word_number)
     return render_template('game.html', words=selected_words)
 
 
