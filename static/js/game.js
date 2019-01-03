@@ -40,7 +40,6 @@ function showCheckWord(status, side) {
             setTimeout(function () {
                 changePicture('.owl', 'static/img/wise_owl.png');
             }, 1500);
-
         }
         else if (side === 'right') {
             changePicture('.parrot', 'static/img/sad_parrot.png');
