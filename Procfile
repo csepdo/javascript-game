@@ -1,1 +1,1 @@
-web: gunicorn javascript-game: app
+web: gunicorn app: app
