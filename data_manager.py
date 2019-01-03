@@ -1,5 +1,6 @@
 import random
 
+
 def get_words_from_file(filename):
     with open(filename, encoding='utf-8') as words:
         lines = words.readlines()
