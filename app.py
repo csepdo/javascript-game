@@ -24,5 +24,5 @@ def show_words():
     return render_template('words.html', words_ly=words_ly, words_j=words_j)
 
 
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+#    app.run()
