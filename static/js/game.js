@@ -1,4 +1,5 @@
 let score = 0;
+let moves = 0;
 
 function collapsibleButtons() {
     let coll = document.getElementsByClassName("collapsible");
@@ -48,11 +49,13 @@ function showCheckWord(status, side) {
             }, 1500)
         }
     }
+    moves++;
+    showScore()
 }
 
 
 function changePicture(element, url) {
-    $ (element).attr('src', url);
+    $(element).attr('src', url);
 }
 
 
@@ -76,7 +79,6 @@ function checkWord(xhttp, word, side) {
             showCheckWord('incorrect', 'right');
         }
     }
-
 }
 
 
@@ -114,7 +116,10 @@ function dragAndDrop() {
 
 
 function showScore () {
-
+    let score_place = document.getElementById('score');
+    score_place.textContent = score;
+    let moves_place = document.getElementById('move');
+    moves_place.textContent = moves;
 }
 
 collapsibleButtons();

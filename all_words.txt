@@ -348,7 +348,7 @@ szabá_
 szabá_os
 szá_
 szegé_
-szé__elnéz
+szé_elnéz
 szenvedé_
 szeszé_es
 szí_
@@ -362,7 +362,8 @@ tébo_ító
 tége_
 te_
 te_föl
-te_út, Te_út
+te_út
+Te_út
 tel_es
 tel_esít
 tel_esítmény
