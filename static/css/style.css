@@ -91,6 +91,10 @@ body {
     font-style: italic;
 }
 
+#score {
+    display: none;
+}
+
 #drag-elements {
   display: block;
   border-radius: 5px;

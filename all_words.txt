@@ -4,7 +4,7 @@ a_ánl
 a_tó
 á_ul
 akadá_
-al_ (alsó rész)
+al_
 ame_
 apá_
 aszá_
@@ -379,11 +379,11 @@ tu_a
 tula_don
 túlsú_
 tűzhe_
-ú_ (nem régi)
+ú_
 ú_év
 ú_donság
 ú_ító
-u__ (testrész)
+u__
 ú_ra
 ú_ság
 uszá_
