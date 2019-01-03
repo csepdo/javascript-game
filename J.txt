@@ -213,7 +213,8 @@ tajtékzik
 talaj
 tej
 tejföl
-tejút, Tejút
+tejút
+Tejút
 teljes
 teljesít
 teljesítmény
